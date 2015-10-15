@@ -17,7 +17,7 @@ How to use
           type: 'string',
           required: '用户名不能为空',
           err: '用户名长度4到16个字符',
-          regexp: /\w{4,16}/
+          regexp: /^\w{4,16}$/
       },
       email: {
           type: 'email',
